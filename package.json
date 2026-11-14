@@ -1,0 +1,23 @@
+{
+  "name": "audit-chain-verifier",
+  "version": "1.0.0",
+  "description": "不可篡改的段式审计日志索引库：Merkle 记录证明、跨段根链、截断与替换检测、安全轮转",
+  "type": "module",
+  "main": "lib/main.js",
+  "exports": {
+    ".": "./lib/main.js"
+  },
+  "scripts": {
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "keywords": [
+    "audit-log",
+    "merkle",
+    "hash-chain",
+    "tamper-evident",
+    "segment-rotation"
+  ]
+}
